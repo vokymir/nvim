@@ -8,5 +8,6 @@
 return {
   "AstroNvim/astrocommunity",
   { import = "astrocommunity.pack.lua" },
+  {"ellisonleao/glow.nvim", config = true, cmd = "Glow"},
   -- { import = "astrocommunity.pack.python" },
 }
